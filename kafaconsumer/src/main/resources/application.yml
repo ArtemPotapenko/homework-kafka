@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+topic:
+  name: "my.name"
+
+spring:
+  kafka:
+    consumer:
+      group-id: "default"
